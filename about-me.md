@@ -1,4 +1,6 @@
 # 私について
+なぬ? トップページに戻りたいだと? [わかった。](./index.html)
+
 ## 年表
 * 20XX年 生まれる
 * 2015年6月14日 本屋でわくプロを買う
@@ -16,9 +18,37 @@
 * 2017年12月31日 [初夢](https://scratch.mit.edu/projects/195613677/)公開
 * 2018年3月 SDS Translator就任
 * 2018年4月1日 [Jumping Ball](https://scratch.mit.edu/projects/213529974/)公開
+* 2018年5月19日 SD2018Kita9
 * 2018年7月 Japanese Scratch-Wiki FTP管理者就任
 * 2018年10月20日 Scratch 2018 Tokyoにて阿部先生に名前を呼ばれる
 * 2019年6月 Scratch Wiki Experienced Wikians選挙落選
+
+## 役職
+* SDS Translator
+* Scratch Translator
+* Japanese Scratch-Wiki 管理者, FTP管理者
+
+## 宗教
+不完全なフリーソフトウェア教徒。
+
+### 愛するソフトウェア
+<dl>
+  <dt>ブラウザ</dt>
+  <dd>Firefox。もちろん。</dd>
+  <dt>動画音楽再生</dt>
+  <dd>VLC Media Player</dd>
+  <dt>Office</dt>
+  <dd>LibreOffice</dd>
+  <dt>SVG編集</dt>
+  <dd>Inkscape</dd>
+  <dt>PDF閲覧</dt>
+  <dd>CubePDF Viewer</dd>
+</dl>
+
+## 好きな言葉
+> Run of the mill and normal you say, but what on earth does normal mean anyway? – Japangle, NHK
+
+> @apple502j awesome! these are really helpful. - paulkaplan
 
 ## アカウント
 ここで公言できるものとしては、apple502j名義で[Scratch](https://scratch.mit.edu/users/apple502j/), Cubeupload, Transifex, GitHub, [Japanese Scratch-Wiki](https://ja.scratch-wiki.info/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Apple502j), [Scratch Wiki](https://en.scratch-wiki.info/wiki/User:Apple502j), [Test Scratch-Wiki](https://test.scratch-wiki.info/wiki/User:Apple502j)。その他apple502jを名乗るものはほとんどが私。
@@ -40,11 +70,6 @@
 
 マークアップ言語はHTML・Markdown・Wikitextの3つ+reST。
 
-## 役職
-* SDS Translator
-* Scratch Translator
-* Japanese Scratch-Wiki 管理者, FTP管理者
-
 ## 得意分野
 * プログラミング: 上記
 * 数学(特に整数論や集合論)
@@ -64,3 +89,12 @@
 * 人の顔の記憶
 * 運動
 * 小説読解
+
+## やっていること、やったこと
+* Japanese Scratch-Wiki 管理者(技術・広報・Wiki Wednesday担当)
+* Scratch Day 2018 in Kitakyushu
+* PyPIでダウンロード可能 `scratchapi2`と`sb3`
+* Scratchのバグ修正+新機能: 224 Issues, 94 Commits
+* [For Parents Page](https://scratch.mit.edu/parents/)の更新担当
+* スプライト右クリックメニューの削除をオレンジ色にしたり、素材をダウンロードできるようにしたり、スライダー変数の範囲設定に対応したり
+* hotfix: Hour of Code, Scratch Desktopなど
