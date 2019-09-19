@@ -1,5 +1,5 @@
 # paper
-[repo](https://github.com/apple502j/paper)・[戻る](../index.html)
+[repo](https://github.com/apple502j/paper)・[戻る](./index.html)
 
 新しいマークアップ言語もどき?
 

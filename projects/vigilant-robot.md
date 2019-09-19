@@ -1,5 +1,5 @@
 # vigilant-robot
-[repo](https://github.com/apple502j/vigilant-robot)・[戻る](../index.html)
+[repo](https://github.com/apple502j/vigilant-robot)・[戻る](./index.html)
 
 カスタマイズ可能なMediaWiki Botフレームワーク+Bot例。
 

@@ -1,5 +1,5 @@
 # sb3
-[repo](https://github.com/apple502j/sb3)・[戻る](../index.html)
+[repo](https://github.com/apple502j/sb3)・[戻る](./index.html)
 
 .sb3ファイルをパースする(sb3 parses SB3)。**Python 3.6+ 必須**
 
