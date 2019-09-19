@@ -2,7 +2,7 @@
 What? Wanna return? [Okay okay](./index.html)
 
 ## Timelne
-* 20XX 生まれる
+* 20XX Born
 * 2015/6/14 Bought a book on Scratch
 * 2015/6/26 Created my Scratch account
 * 2016/3 1st follower
