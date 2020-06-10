@@ -208,6 +208,12 @@ class Utilities {
               defaultValue: 'apple'
             }
           }
+        },
+        {
+          opcode: 'justObtainRuntime',
+          blockType: Scratch.BlockType.HAT,
+          text: 'just obtain runtime',
+          isEdgeActivated: true
         }
       ]
     }
@@ -286,6 +292,13 @@ class Utilities {
 
   regexReplace({STRING, REGEX, NEWSTRING}) {
     return STRING.toString().replace(new RegExp(REGEX, 'gi'), NEWSTRING);
+  }
+  
+  justObtainRuntime (_, util) {
+    if (this.weDidIt) return false;
+    this.weDidIt = true;
+    console.log('runtime obtained:', util.runtime);
+    return false;
   }
 
 }
