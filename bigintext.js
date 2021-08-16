@@ -32,9 +32,15 @@ function wrap(cb) {
 
 function wrapDiv(cb) {
   return (args) => {
+    const a = castBigInt(args.A);
     const b = castBigInt(args.B);
-    if (b === 0n) return NaN;
-    return String(cb(castBigInt(args.A), b));
+    if (b === 0n) {
+      // there is no negative zero bigint
+      if (a > 0) return Infinity;
+      if (a < 0) return -Infinity;
+      return NaN;
+    }
+    return String(cb(a, b));
   }
 }
 
