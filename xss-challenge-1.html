@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>XSS Challenge 1</title>
+    </head>
+    <body>
+        <h1>XSS Challenge 1</h1>
+        <p>Check the source code and console maybe?</p>
+        <p>Due to use of sandboxed iframe, standard <code>alert(document.domain)</code> payload may not work.</p>
+        <iframe id="sandbox" sandbox="allow-scripts" style="width:1px;height:1px;"></iframe>
+        <script>
+            const sandbox = document.getElementById("sandbox");
+            sandbox.src = "data:text/html;base64," + btoa(`<script>window.onmessage=e=>{if(e.origin==="${origin}"&&eval(decodeURIComponent(e.data)))console.log("success!");}<\/script>`);
+            sandbox.contentWindow.postMessage(location.hash, "*");
+        </script>
+    </body>
+</html>
