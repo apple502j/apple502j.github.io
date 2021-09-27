@@ -11,8 +11,8 @@
         <iframe id="sandbox" sandbox="allow-scripts" style="width:1px;height:1px;"></iframe>
         <script>
             const sandbox = document.getElementById("sandbox");
+            sandbox.onload = () => sandbox.contentWindow.postMessage(location.hash, "*");
             sandbox.src = "data:text/html;base64," + btoa(`<script>window.onmessage=e=>{if(e.origin==="${origin}"&&eval(decodeURIComponent(e.data)))console.log("success!");}<\/script>`);
-            sandbox.contentWindow.postMessage(location.hash, "*");
         </script>
     </body>
 </html>
